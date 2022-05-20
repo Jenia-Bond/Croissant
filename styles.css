@@ -1,0 +1,39 @@
+:root {
+  --primary-color: rgb(255, 240, 181);
+}
+h1,
+h4 {
+  text-align: center;
+}
+h4 {
+  font-weight: 100;
+}
+.homepage-body {
+  background-image: url("pics/main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+body {
+  background-color: var(--primary-color);
+}
+.main-container {
+  width: 600px;
+  margin: auto;
+  background-color: var(--primary-color);
+  padding: 20px;
+}
+
+@media (max-width: 576px) {
+  .main-container {
+    font-size: 12px;
+  }
+}
+
+.links {
+  text-align: center;
+  padding: 10px;
+}
+.homepage-link {
+  text-align: center;
+}
